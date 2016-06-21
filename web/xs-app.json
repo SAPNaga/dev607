@@ -1,0 +1,19 @@
+{
+	"welcomeFile": "index.html",
+	"authenticationMethod": "none",
+	"websockets": {
+		"enabled": true
+	},
+	"routes": [{
+		"source": "/node/(.*)",
+		"destination": "nodejs",
+		"csrfProtection": false
+	}, {
+		"source": "(.*)(.xsjs)",
+		"destination": "nodejs",
+		"csrfProtection": false
+	}, {
+		"source": "(.*)(.xsodata)",
+		"destination": "nodejs"
+	}]
+}
