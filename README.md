@@ -1,7 +1,7 @@
 # dev607
 SAP TechEd 2016: Mini CodeJam; Get a First Look at SAP Web IDE for SAP HANA
 In this session you will receive your first hands-on experience with the new SAP Web IDE for SAP HANA, for native SAP HANA development. Using SAP Web IDE for SAP HANA, you will build database development artifacts, Node.js-based services, and SAP Fiori and SAPUI5 user interfaces based upon SAP HANA extended application services, advanced model, and the deployment infrastructure for SAP HANA (aka HDI).
-
+  
 EXERCISE 1 – HELLO WORLD
 Objective
 In this first exercise, we will connect to the remote system, run the new project wizard, and then create an HTML5 module to serve as the application endpoint and proxy all of our services and client-side content. At the end of this exercise you will be able to connect to your server via web browser and see a Hello World message.
